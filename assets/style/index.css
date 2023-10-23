@@ -198,38 +198,38 @@
     height: 384px;
   }
   .data-analysis {
-    top: 152px;
-    left: 83px;
+    /* top: 152px;
+    left: 83px; */
     display: inline-block;
     width: 422px;
     height: 171px;
   }
   .rectangle-parent2 {
-    position: absolute;
+    /* position: absolute;
     top: 479px;
-    left: 700px;
+    left: 700px; */
     width: 511px;
     height: 384px;
   }
   .features-parent,
   .group-parent {
-    position: absolute;
+    /* position: absolute;
     top: 107px;
-    left: 0;
+    left: 0; */
     width: 1211px;
     height: 863px;
   }
   .features-parent {
-    top: 1434px;
-    left: 115px;
+    /* top: 1434px;
+    left: 115px; */
     height: 970px;
     font-size: var(--font-size-41xl);
     font-family: var(--font-inria-sans);
   }
   .group-child3 {
-    position: absolute;
+    /* position: absolute;
     top: 83px;
-    left: 0;
+    left: 0; */
     border-radius: var(--br-xl);
     background-color: var(--color-white);
     border: 1px solid var(--color-black);
@@ -239,48 +239,48 @@
   }
   .eg-zoya-memon,
   .full-name {
-    position: absolute;
+    /* position: absolute;
     top: 120px;
-    left: 36px;
+    left: 36px; */
   }
   .full-name {
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
     color: var(--color-black);
   }
   .rectangle-parent3 {
-    position: absolute;
+    /* position: absolute;
     top: 154px;
-    left: 12px;
+    left: 12px; */
     width: 566px;
     height: 198px;
   }
   .eg-zoyamemon767gmailcom {
-    position: absolute;
+    /* position: absolute;
     top: 112px;
-    left: 36px;
+    left: 36px; */
   }
   .rectangle-parent4,
   .rectangle-parent5 {
-    position: absolute;
+    /* position: absolute;
     top: 154px;
-    left: 751px;
+    left: 751px; */
     width: 566px;
     height: 198px;
   }
   .rectangle-parent5 {
-    top: 454px;
-    left: 0;
+    /* top: 454px;
+    left: 0; */
   }
   .eg-requesting-for {
-    position: absolute;
+    /* position: absolute;
     top: 112px;
-    left: 24px;
+    left: 24px; */
   }
   .rectangle-parent6 {
-    position: absolute;
+    /* position: absolute;
     top: 454px;
-    left: 751px;
+    left: 751px; */
     width: 566px;
     height: 198px;
   }
@@ -293,8 +293,8 @@
     color: var(--color-black);
   }
   .group-container {
-    top: 2784px;
-    left: 37px;
+    /* top: 2784px;
+    left: 37px; */
     width: 1317px;
     height: 652px;
     font-size: var(--font-size-16xl);
@@ -302,32 +302,34 @@
     font-family: var(--font-inria-sans);
   }
   .submit-request {
-    position: absolute;
+    /* position: absolute;
     top: 25px;
-    left: 48px;
+    left: 48px; */
   }
   .peerlink-child1,
   .rectangle-parent7 {
-    position: absolute;
-    top: 3558px;
-    left: 1036px;
+    /* position: absolute; */
+    /* top: 3558px;
+    left: 1036px; */
     width: 302px;
     height: 86px;
   }
   .peerlink-child1 {
-    top: 3793px;
-    left: 0;
+    /* position: relative; */
+    bottom: 0;
+    left: 0;   
     background-color: var(--color-black);
-    width: 1354px;
-    height: 222px;
+    width: 1515px;
+    height: 200px;
   }
   .all-rights-are {
+    color: white;
     position: absolute;
-    top: 3886px;
-    left: calc(50% - 338px);
+    top: 70px;
+    left: 400px
   }
   .peerlink {
-    position: relative;
+    /* position: relative; */
     background-color: #f8f5f4;
     width: 100%;
     height: 4015px;

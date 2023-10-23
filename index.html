@@ -6,98 +6,104 @@
 
     <link rel="stylesheet" href="/assets/style/global.css" />
     <link rel="stylesheet" href="/assets/style/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@700&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@700&display=swap"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
   <body>
-    <div class="peerlink">
-      <div class="rectangle-parent">
-        <div class="group-child"></div>
-        <img class="image-1-icon" alt="" src="./assets/img/image 1.png" />
-      </div>
-      <div class="home-parent">
-        <div class="home">Home</div>
-        <div class="about">About</div>
-        <div class="services">Services</div>
-      </div>
-      <div class="peerlink-child"></div>
-      <div class="sign-in">Sign In</div>
-      <b class="unlocking-secure-connections"
-        >Unlocking Secure Connections Beyond Email and Phone</b
-      >
-      <img class="image-2-icon" alt="" src="./assets/img/image 2.png" />
+    <div class="peerlink container-fluid">
+        <nav id="nav-dark" class="navbar fixed-top navbar-expand-lg bg-black p-4" style="background-color: #17194B;">
+            <div class="container-fluid">
+              <div id="myBrand" class="navbar-brand">
+                <a class="s1" href="#"> <img src="/assets/img/image 1.png" alt=""></a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNavAltMarkup">
+                <div id="font" class="navbar-nav">
+                  <a id="active1" class="nav-link active1 d-flex justify-content-center ms-5 text-white" href="#Home">Home</a>
+                  <a id="active2" class="nav-link active1 d-flex justify-content-center ms-5 text-white" href="#About">About</a>
+                  <a id="active3" class="nav-link active1 d-flex justify-content-center ms-5 text-white" href="#Services">Services</a>
+                  <input type="submit" class="btn btn-primary rounded" style="border-radius: 20%; margin-left: 20px;">
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div id="Home" class="container homeBody mt-5"  style="margin-top: 90px;">
+            <div class="row">
+                <div class="col col-16 col-md-12 col-sm-12 col-lg-6">
+                 <span class="mt-5" style="background-color: #17194B;">Unlocking Secure Connections Beyond Email and Phone</span>
+                </div>
+                <div class="col col-6 col-md-12 col-sm-12 col-lg-6 ">
+                    <img src="/assets/img/image 2.png" alt="">
+                   </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    
+                  <!-- The slideshow/carousel -->
+                    <div class="carousel-item active">
+                      <img src="/assets/img/image 3.png" class="d-block setting">
+                      <img src="/assets/img/image 4.png" class="d-block setting">
+                      <img src="/assets/img/image 5.png" class="d-block setting">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img/image 3.png" class="d-block setting">
+                        <img src="/assets/img/image 4.png" class="d-block setting">
+                        <img src="/assets/img/image 5.png" class="d-block setting">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img/image 3.png" class="d-block setting">
+                        <img src="/assets/img/image 4.png" class="d-block setting">
+                        <img src="/assets/img/image 5.png" class="d-block setting">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img/image 3.png" class="d-block setting">
+                        <img src="/assets/img/image 4.png" class="d-block setting">
+                        <img src="/assets/img/image 5.png" class="d-block setting">
+                    </div>
+                  </div>
+    
+                </div>
 
-      <img class="peerlink-item" alt="" src="/assets/img/Group 7.png" />
+              </div>
+      
+      <div id="" class="d-block row ">
+        <form  onsubmit="submitForm(event)"  id="myform">
+            <div class="mb-3">
+              <label for="name" class="form-label text-dark">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="e.g Zoya Me"  required size="7">
+            </div>
 
-      <div class="want-your-peers-to-engage-with-parent">
-        <b class="want-your-peers"
-          >Want your peers to engage with each other?</b
-        >
-        <div class="rectangle-group">
-          <div class="group-item"></div>
-          <div class="get-started">Get Started</div>
-        </div>
-      </div>
-      <div class="peerlink-inner"></div>
-      <div class="features-parent">
-        <b class="features">Features:</b>
-        <div class="group-parent">
-          <div class="rectangle-container">
-            <div class="group-inner"></div>
-            <b class="track-peers-communication-container">
-              <p class="track-peers">Track Peers</p>
-              <p class="track-peers">Communication</p>
-            </b>
-          </div>
-          <div class="group-div">
-            <div class="group-inner"></div>
-            <b class="get-alert-for">Get Alert for harmful communication</b>
-          </div>
-          <div class="rectangle-parent1">
-            <div class="group-inner"></div>
-            <b class="track-sentiments-of">Track sentiments of communication</b>
-          </div>
-          <div class="rectangle-parent2">
-            <div class="group-inner"></div>
-            <b class="data-analysis">Data Analysis</b>
-          </div>
-        </div>
-      </div>
-      <div class="group-container">
-        <div class="rectangle-parent3">
-          <div class="group-child3"></div>
-          <b class="eg-zoya-memon">e.g Zoya Memon</b>
-          <b class="full-name">Full Name</b>
-        </div>
-        <div class="rectangle-parent4">
-          <div class="group-child3"></div>
-          <b class="eg-zoyamemon767gmailcom">e.g zoyamemon767@gmail.com</b>
-          <b class="full-name">Email</b>
-        </div>
-        <div class="rectangle-parent5">
-          <div class="group-child3"></div>
-          <b class="eg-zoyamemon767gmailcom">+9293919919991</b>
-          <b class="full-name">Contact Number</b>
-        </div>
-        <div class="rectangle-parent6">
-          <div class="group-child3"></div>
-          <b class="eg-requesting-for">e.g Requesting for demo</b>
-          <b class="full-name">Comment</b>
-        </div>
-        <b class="contact-now">Contact Now</b>
-      </div>
-      <div class="rectangle-parent7">
-        <div class="group-item"></div>
-        <div class="submit-request">Submit Request</div>
-      </div>
-      <div class="peerlink-child1"></div>
-      <b class="all-rights-are"> All rights are reserved by @SukkurIBAUniversity 2023</b>
+            <div class="mb-3">
+                <label for="email" class="form-label text-dark">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="e.g zioyamemon@23gmail.com"  required size="7">
+            </div>
+            <div class="mb-3">
+                <label for="contact" class="form-label text-dark">Contact</label>
+                <input type="tel" class="form-control" id="password" placeholder="+9293919919991" required size="7">
+            </div>
+            <div class="mb-5">
+                <label for="comment" class="text-dark">
+                <input type="text" required size="7" class="form-control" id="comment" placeholder="e.g Requesting for demo">
+
+            </div>
+            <div class="mb-3">
+                <input type="submit" id="signup" class="btn-primary">
+            </div>
+            
+        </form>
     </div>
+             
+        <div class="peerlink-child1"></div>
+      <b class="all-rights-are"
+        >All rights are reserved by @SukkurIBAUniversity 2023</b>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/assets/js/index.js"></script>
   </body>
 </html>
